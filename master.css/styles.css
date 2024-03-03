@@ -1,0 +1,169 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: "EBGarmond";
+    src: url(/linktree-clone-css-js-main/fonts/EBGaramond-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url(/linktree-clone-css-js-main/fonts/NotoSans_SemiCondensed-SemiBold.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10,10,10);
+    color: rgb(240,240,240);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    font-family: "EBGarmond", serif;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+    position: relative;
+}
+
+.share-button img {
+    position: absolute;
+    right: -19px;
+    top: -5px; 
+    -webkit-box-shadow: 5px 4px 16px 5px rgba(0,0,0,1); 
+            box-shadow: 5px 4px 16px 5px rgba(0,0,0,1);
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "EBGarmond", serif;
+    align-items: center;
+}
+
+p{
+    font-family: "EBGarmond", serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+}
+
+.tile {
+    width: 100%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.tile:hover {
+    -webkit-transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    -o-transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: "EBGarmond", serif;
+    opacity: 0,5;
+    font-size: 12px;
+}
+  
